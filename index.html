@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Golf Optimizer Test</title>
+  <!-- Optional: add a small stylesheet or link to style.css -->
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React + ReactDOM -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- Babel for in-browser JSX transpile (dev only) -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Paste your JSX here. Keep script type="text/babel" so Babel will transpile it in the browser.
+       If your golf-complete.jsx exports a component, paste it here and make sure to render it below. -->
+  <script type="text/babel">
+    // Example wrapper. Replace everything below with your golf-complete.jsx content.
+    const { useState, useEffect } = React;
+
+    function App() {
+      return (
+        <div>
+          <h1>Golf Optimizer Demo</h1>
+          <p>Paste your golf-complete.jsx component code here and render it instead of this.</p>
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>
